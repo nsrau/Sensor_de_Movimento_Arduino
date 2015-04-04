@@ -4,5 +4,5 @@ Realizei esse simples projeto com arduino para resolver um meu problema.
 As vez quando me levanto para ir ao banheiro de noite, tenho dificuldade em acender a luz do corredor que leva ao banheiro.
 Decidi entao criar um "aparelho" que acendesse a luz do corredor automaticamente, mas somente quando 
 nao tivesse nenhuma luz acesa em casa.
-Falta agora a parte do rele para ligar no corrente e uma lampada de verdade, mesmo se posso dizer que com 9 leds
+Falta agora a parte do rele para ligar na corrente e uma lampada de verdade, mesmo se posso dizer que com 9 leds
 ja ajuda muito.
