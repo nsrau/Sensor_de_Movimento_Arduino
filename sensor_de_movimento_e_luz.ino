@@ -32,7 +32,7 @@ void loop() {
       digitalWrite(ledPin[i], HIGH);   
     }
     
-    Serial.print("pouca luz, entao acendo a luz!");
+    Serial.print("pouca luz, entao acendo os leds!");
     Serial.print('\n');
     
     if (state == LOW) {
