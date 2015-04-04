@@ -36,9 +36,9 @@ void loop() {
     Serial.print('\n');
     
     if (state == LOW) {
-      		Serial.println("Movimento detectado!"); 
-					Serial.print('\n');
-      		state = HIGH; // update state
+      	Serial.println("Movimento detectado!"); 
+	Serial.print('\n');
+      	state = HIGH; // update state
     }
 
     delay(20000);
@@ -49,17 +49,17 @@ void loop() {
     	Serial.print('\n'); 
     
       for (int i=0; i<6; i++) {
-        		digitalWrite(ledPin[i], LOW);   
+        digitalWrite(ledPin[i], LOW);   
       }
 
       if (state == HIGH){
-        		Serial.println("Nenuhm movimento!");
-        		state = LOW; 
+        Serial.println("Nenuhm movimento!");
+        state = LOW; 
       }
       
-      Serial.print("valor luminosidade : ");
-  		Serial.println(luminosidade);
-  		Serial.print('\n'); 
+    	Serial.print("valor luminosidade : ");
+  	Serial.println(luminosidade);
+  	Serial.print('\n'); 
   
       delay(100);  
     
